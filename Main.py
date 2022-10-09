@@ -6,7 +6,15 @@ def merge_sort(data) -> None:
     mid = len(data)//2
     left= data[:mid]
     right= data[mid:]
-   
+    
+    merge_sort(left)
+    merge_sort(right)
+    
+    i=0
+    j=0
+    k=0
+    
+    
 
 # Do not change the following code
 input_data = input()
