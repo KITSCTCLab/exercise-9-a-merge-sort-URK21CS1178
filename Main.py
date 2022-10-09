@@ -2,7 +2,11 @@ from typing import List
 
 def merge_sort(data) -> None:
   # Write code here
-
+  if len(data) > 1:
+    mid = len(data)//2
+    left= data[:mid]
+    right= data[mid:]
+   
 
 # Do not change the following code
 input_data = input()
